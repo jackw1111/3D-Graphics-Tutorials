@@ -1,0 +1,225 @@
+# depslib dependency file v1.0
+1564388463 source:/home/server/learnOpenGL/camera.cpp
+	"camera.h"
+	"entity.h"
+
+1564448167 /home/server/learnOpenGL/camera.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<vector>
+
+1564448207 /home/server/learnOpenGL/entity.h
+	<vector>
+	<glm/glm.hpp>
+	"collision.h"
+	"model.h"
+
+1564448186 /home/server/learnOpenGL/collision.h
+	<math.h>
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1564187925 /home/server/learnOpenGL/model.h
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"mesh.h"
+	"shader.h"
+
+1564448223 /home/server/learnOpenGL/mesh.h
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	"shader.h"
+
+1564386681 /home/server/learnOpenGL/shader.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1564448092 source:/home/server/learnOpenGL/collision.cpp
+	"collision.h"
+
+1564448298 source:/home/server/learnOpenGL/entity.cpp
+	"entity.h"
+
+1563406771 source:/home/server/learnOpenGL/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1564448457 source:/home/server/learnOpenGL/main.cpp
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+	"entity.h"
+	"camera.h"
+	"model.h"
+	"shader.h"
+
+1564315526 source:/home/server/learnOpenGL/mesh.cpp
+	"mesh.h"
+
+1564448368 source:/home/server/learnOpenGL/model.cpp
+	"model.h"
+	"stb_image.h"
+
+1564379733 /home/server/learnOpenGL/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1564386679 source:/home/server/learnOpenGL/shader.cpp
+	"shader.h"
+
+1564449113 /home/server/learnOpenGL/include/camera.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<vector>
+
+1564449253 /home/server/learnOpenGL/include/shader.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1564449082 source:/home/server/learnOpenGL/src/camera.cpp
+	"camera.h"
+	"entity.h"
+
+1564449238 source:/home/server/learnOpenGL/src/shader.cpp
+	"shader.h"
+
+1563406771 /home/server/learnOpenGL/include/glad/glad.h
+	<KHR/khrplatform.h>
+
+1564449504 /home/server/learnOpenGL/include/entity.h
+	<vector>
+	<glm/glm.hpp>
+	"collision.h"
+	"model.h"
+
+1564449572 /home/server/learnOpenGL/include/collision.h
+	<math.h>
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1564449615 /home/server/learnOpenGL/include/model.h
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"mesh.h"
+	"shader.h"
+
+1564449578 source:/home/server/learnOpenGL/src/collision.cpp
+	"collision.h"
+
+1564449663 /home/server/learnOpenGL/include/mesh.h
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	"shader.h"
+
+1564449514 source:/home/server/learnOpenGL/src/entity.cpp
+	"entity.h"
+
+1564449669 source:/home/server/learnOpenGL/src/mesh.cpp
+	"mesh.h"
+
+1563406771 /home/server/learnOpenGL/include/KHR/khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1564449837 source:/home/server/learnOpenGL/src/model.cpp
+	"model.h"
+	<stb_image.h>
+
+1564379733 /home/server/learnOpenGL/include/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1563406771 source:/home/server/learnOpenGL/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1564448457 source:/home/server/learnOpenGL/src/main.cpp
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+	"entity.h"
+	"camera.h"
+	"model.h"
+	"shader.h"
+
