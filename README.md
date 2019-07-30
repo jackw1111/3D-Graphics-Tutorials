@@ -8,17 +8,17 @@ The implementation is demonstrated on a [Model loading demo](https://learnopengl
 
 The C++ and OpenGL knowledge in this tutorial is assumed to be beginner-intermediate level, but if you have any issues with it you can always start from the start of the learnOpenGL series, and this will be a smooth transition once you have learnt up to loading meshes and models :)
 
-#Requirements
+# Requirements
 - Same requirements as [learnOpenGL series](https://learnopengl.com/Getting-started/Creating-a-window).
 
-#Building
+# Building
 - A Code::Blocks project is provided and it should be as easy as building and running.
 - Also, a Makefile will be provided as well if you don't use Code::Blocks. (ie. `make` and `./bin/Release/learnOpenGL` to run)
 
 # To Do:
 - fix gravity
 
-#References:
+# References:
 - [learnOpenGL - Joey de Vries ](www.learnopengl.com)
 - [Peroxide - Kasper Fauerby] (http://www.peroxide.dk/)
 - [Exengine, a C 3D game engine - exezin](https://github.com/exezin/exengine)
