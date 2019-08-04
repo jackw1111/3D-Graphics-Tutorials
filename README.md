@@ -1,6 +1,6 @@
 # Simple OpenGL collisions
 
-This is a demo of how Kasper Fauerby's [Improved Collision detection and Response](www.peroxide.dk/papers/collision/collision.pdf) can be implemented in OpenGL 3.3+ using GLM.
+This is a demo of how Kasper Fauerby's [Improved Collision detection and Response](https://www.peroxide.dk/papers/collision/collision.pdf) can be implemented in OpenGL 3.3+ using GLM.
 
 The paper outlines a method to transform 3D space to ellipsoid space (e space) for detecting whether the radius of the ellipsoid collides with any triangle in the scene, and realistic sliding the ellipsoid off the triangle plane it collides with. It has a number of optimizations to allow the algorithm to exit early and save CPU cycles, and so the technique is fairly optimized and thus is a commonly used collision algorithm. I highly recommend going through the paper once as an overview, and at least once more to understand the details.
 
